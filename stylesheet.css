@@ -1,0 +1,84 @@
+.main_container {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  background-color: #141414;
+}
+
+#resume {
+  background-color: #282828;
+  overflow: auto;
+}
+
+#section1 {
+  margin: 1rem;
+}
+
+#profile_picture {
+  display: inline;
+  float: left;
+  margin: 1rem;
+}
+
+#name_title {
+  display: inline;
+  float: left;
+  margin: 1rem;
+}
+
+#contact {
+  display: inline;
+  float: left;
+  margin-top: 1rem;
+  text-align: right;
+}
+
+#contact_info {
+  display: inline;
+  float: left;
+  margin-top: 1rem;
+  text-align: left;
+  color: #838383;
+}
+
+#bio {
+  display: inline;
+  float: left;
+  margin: 1rem;
+}
+
+#title {
+  color: #2e8dc8;
+}
+
+h1 {
+  color: white;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+h2 {
+  color: white;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+strong {
+  color: white;
+}
+
+/*p.contact_text>span {
+    display: inline-block;
+    min-width: 95px;
+}*/
+
+p {
+  color: #838383;
+}
+
+p span {
+  vertical-align: middle;
+}
+
+ul {
+  list-style-type: none;
+}
