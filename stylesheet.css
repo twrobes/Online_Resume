@@ -2,6 +2,7 @@
   margin-left: 10rem;
   margin-right: 10rem;
   background-color: #141414;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #resume {
@@ -9,12 +10,7 @@
   overflow: auto;
 }
 
-#section1 {
-  margin: 1rem;
-}
-
 #profile_picture {
-  display: inline;
   float: left;
   margin: 1rem;
 }
@@ -23,6 +19,7 @@
   display: inline;
   float: left;
   margin: 1rem;
+  position: relative;
 }
 
 #contact {
@@ -30,6 +27,7 @@
   float: left;
   margin-top: 1rem;
   text-align: right;
+  position: relative;
 }
 
 #contact_info {
@@ -38,12 +36,14 @@
   margin-top: 1rem;
   text-align: left;
   color: #838383;
+  position: relative;
 }
 
 #bio {
   display: inline;
   float: left;
   margin: 1rem;
+  position: relative;
 }
 
 #title {
@@ -60,6 +60,7 @@ h2 {
   color: white;
   padding: 0rem;
   margin: 0rem;
+  display: inline-block;
 }
 
 strong {
@@ -81,4 +82,80 @@ p span {
 
 ul {
   list-style-type: none;
+}
+
+#arrow1 {
+  display: inline-block;
+  background-color: #44A5D2;
+  padding: 20px 20px;
+  padding-top: 22px;
+  border-radius: 5px;
+}
+
+#arrow2 {
+  display: inline-block;
+  background-color: #69A333;
+  padding: 20px 20px;
+  padding-top: 22px;
+  border-radius: 5px;
+}
+
+.arrow_large {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 0.3rem 0.3rem 0;
+  display: inline-block;
+  padding: 0.3rem;
+}
+
+.arrow_small {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 0.3rem 0.3rem 0;
+  display: inline-block;
+  padding: 0.3rem;
+}
+
+.right {
+  transform: rotate(315deg);
+  -webkit-transform: rotate(315deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+#employement {
+  display: inline;
+  float: left;
+  margin: 1rem;
+  position: relative;
+}
+
+#education {
+  display: inline;
+  float: left;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.gray_background {
+  background-color: #373737;
+}
+
+#section1 {
+  float: left;
+}
+
+#section2 {
+  float: left;
+  margin: 1rem;
+}
+
+#section3 {
+  float: right;
+  margin: 1rem;
+}
+
+#category {
+  padding: 1rem;
 }
